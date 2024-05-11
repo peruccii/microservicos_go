@@ -2,5 +2,8 @@ POST http://localhost:8080/v1/category
 Content-Type: application/json
 
 {
- "Name": "Golang"
+ "Name": "Docker"
 }
+
+###
+GET http://localhost:8080/v1/category/categories
